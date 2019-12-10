@@ -136,7 +136,7 @@ body {
 	padding-right: 25%;
 }
 ul li {
-	list-style: none; /*σαθπΰεμ μΰπκεπϋ ροθρκΰ*/
+	list-style: none; /*Γ³Γ‘Γ¨Γ°Γ Γ₯Γ¬ Γ¬Γ Γ°ΓͺΓ₯Γ°Γ» Γ±Γ―Γ¨Γ±ΓͺΓ */
 	float: left;
 }
 .news {
@@ -251,7 +251,7 @@ display:none;
 	min-height: 450px;
 	border: 10px solid #8A022D;
 	background: #FFF0EB;
-	margin-top:-100%;
+	margin-top:-1000px;
 }
 .ok:hover {
 	transform: scale(1.05,1.05);
