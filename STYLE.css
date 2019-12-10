@@ -1,0 +1,414 @@
+.swiper-container {
+	background: #8A022D;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.swiper-slide {
+	padding: 0;
+	text-align: center;
+	font-size: 18px;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+}
+.parallax {
+	height: 450px;
+	width: 100%;
+	background-image: url(img/Main/Fon1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	border-bottom: 10px solid #8A022D;
+	border-top: 10px solid #8A022D;
+}
+.knopka {
+	display:none;
+	-webkit-transition-duration: 1s;
+	margin-left: 100%;
+	border: 1px solid #56022D;
+	background: #8A022D;
+	position: absolute;
+	z-index: 700;
+	height: 410px;
+	width: 50%;
+}
+
+	.myka:hover {
+		background-color: #64022D;
+	}
+.Zak {
+	transition: transform .1s ;
+}
+.Zak:hover {
+	transform: scale(1.05,1.05);
+}.send:hover {
+	transform: scale(1.05,1.05);
+}.send2:hover {
+	transform: scale(1.05,1.05);
+}
+a {
+	color: #D3D3D3 ;
+	text-decoration: underline #D3D3D3;
+}
+
+.meny {
+	
+	height: 140px;
+	width: 100%;
+	border-bottom: 1px solid #8A022D;
+}
+.logo {
+	margin-top:10px;
+	display:block;
+	max-width:100%;
+	height:auto;
+	z-index: 100;
+	position: absolute;
+	padding-top: 45px;
+	padding-left: 5%;
+}
+.Welcom {
+	max-width: 100%;
+	height: auto;
+	z-index: 100;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 20%;
+	font-family: brush script mt;
+	font-size: 30px;
+	color: #FF8286;
+}
+.Myk {
+	z-index: 100;
+	margin-left: 22%;
+	margin-top: 140px;
+	font-family: lucida console;
+	font-size: 70px;
+	color: white;
+}
+body {
+	height:100%;
+	margin: 0;
+	background-color: #FFF0EB;
+}
+.meny1 {
+	margin-left:260px;
+	margin-top:65px;
+	position:absolute;
+	z-index:10;
+	height:auto;
+	width:80%;
+	border: 0px red solid;
+}
+
+}.meny2_1 {
+	margin-left:20px;
+	margin-top:10px;
+	position:fixed;
+	z-index:1000;
+	height:20px;
+	width:50%;
+	border: 0px red solid;
+}
+.text_meny1 {
+	font: 25px Bauhaus;
+	color: #8A022D;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.text_meny2 {
+	font: 15px Bauhaus;
+	color: #FFF0EB;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.text_meny2_1 {
+	font: 25px Bauhaus;
+	color: #FFF0EB;
+	padding: 20px;
+	padding-left: 15%;
+	padding-right: 25%;
+}
+ul li {
+	list-style: none; /*убираем маркеры списка*/
+	float: left;
+}
+.news {
+	padding:0;
+	height: auto;
+	max-width: 100%;
+	background-color: #8A022D;
+	color: #FFF0EB;
+	font: 25px Bauhaus;
+}
+.delivery {
+	z-index: 998;
+	margin-top: 150px;
+	height: auto;
+	max-width: 100%;
+	background-color: #8A022D;
+	color: #FFF0EB;
+	font: 25px Bauhaus;
+}
+
+.text_news {
+	padding-right:30%;
+	margin-bottom:4%;
+	margin-left: 7%;
+	max-width: 50%;
+}
+.name_news {
+	max-width: 100%;
+	font: 75px Alexandra Script;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+.text_deliv {
+	padding-bottom: 17%;
+	max-width:50%;
+	padding-left:42%;
+}
+.name_deliv {
+	max-width: 100%;
+	font: 75px Alexandra Script;
+	padding-top: 5%;
+	padding-left: 40%;
+}
+.news img {
+	display:inline-block;
+	padding:4%;
+	padding-right:7%;
+	float:right;
+	max-width:100%;
+	height:auto;
+
+}
+.delivery_img {
+	z-index: 998;
+	display: inline-block;
+	padding: 4%;
+	padding-left: 7%;
+	float: left;
+	max-width: 100%;
+	height: auto;
+}
+
+.Zak {
+	margin-top:15%;
+	display: inline-block;
+	float: right;
+margin-right: 8%;
+}
+footer {
+	margin-top:20%;
+	max-width: 100%;
+	height: auto;
+	margin-bottom:0%;
+
+}
+.foot {margin-bottom:0px;
+	   max-width: 100%;
+	position: absolute;
+	z-index: 999;
+}
+.M {
+
+	margin-top: -10px;
+	display: none;
+}
+
+@media screen and (max-width: 700px) {
+	.Zak {
+		margin-top: 5%;
+		display: inline-block;
+		float: right;
+		margin-right: 8%;
+	}
+}
+
+
+.dark {position:fixed;
+	   z-index:1500;
+	   opacity:0.8;
+background:black;
+width:100%;
+height:3000px;
+display:none;
+}
+.forma {
+	-webkit-transition-duration: 0.5s;
+	border-radius: 30px;
+	margin-left: 25%;
+	position: fixed;
+	z-index: 1501;
+	width: 50%;
+	min-height: 450px;
+	border: 10px solid #8A022D;
+	background: #FFF0EB;
+	margin-top:-100%;
+}
+.ok:hover {
+	transform: scale(1.05,1.05);
+}
+.ansver {
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	font: 25px Bauhaus;
+	color: #8A022D;
+	line-height: 20px;
+	-webkit-transition-duration: 0.5s;
+	border-radius: 30px;
+	position: fixed;
+	z-index: 1501;
+	width: 30%;
+	height: auto;
+	border: 10px solid #8A022D;
+	background: #FFF0EB;
+	margin-left: -100%;
+	margin-top: 20%;
+}
+.form_title {
+	padding-bottom:15px;
+	width:90%;
+	text-align: center;
+	padding-top: 15px;
+	-webkit-text-stroke: 1px #8A022D;
+	font: 70px Alexandra Script;
+	color: #8A022D;
+	line-height: 20px;
+}.ansver_title {
+	padding-bottom:15px;
+	width:90%;
+	text-align: center;
+	padding-top: 15px;
+	-webkit-text-stroke: 1px #8A022D;
+	font: 80px Alexandra Script;
+	color: #8A022D;
+	line-height: 20px;
+}
+.news_title {
+	margin-top: 150px;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	width: 90%;
+	text-align: center;
+	padding-top: 15px;
+	-webkit-text-stroke: 1px #8A022D;
+	font: 90px Alexandra Script;
+	color: #8A022D;
+	line-height: 20px;
+}
+.form_title2 {
+	width:90%;
+	text-align: center;
+	padding-top: 5px;
+	font: 20px Bauhaus;
+	color: #8A022D;
+	line-height: 20px;
+}
+.nnn {margin-left:10%;
+	width: 80%;
+	display: inline-block;
+}
+.form_text {
+	float:left;
+}
+.checkboxs {
+	font: 20px Bauhaus;
+	color: #8A022D;
+}
+.send {
+padding:5%;
+}.send2 {
+padding:5%;
+}
+
+.number {margin-top:20px;
+	float:right;
+	font: 15px Bauhaus;
+	color: #8A022D;
+}
+.phone, .place {
+	margin: 5px;
+	font: 15px Bauhaus;
+	color: #B97389;
+	border-radius: 5px;
+	border: 2px solid #8A022D;
+	background: #FFF0EB;
+}
+@media screen and (max-width: 1300px) {
+	.number {
+		margin-top: 0px;
+		float: right;
+		font: 15px Bauhaus;
+		color: #8A022D;
+	}
+	.meny1 {
+		display: none;
+	}
+
+	.meny2 {
+		display: none;
+	}
+
+	.dis1 {
+		display: none;
+	}
+
+	.M {
+		display: initial;
+	}
+
+	.myka {
+		margin-left: 81%;
+		width: 70px
+	}
+
+	.text_meny2 {
+		display: none;
+	}
+
+	.knopka {
+		display: initial;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+
+	.form_title {
+		width: 90%;
+		text-align: center;
+		padding-top: 5px;
+		-webkit-text-stroke: 1px #8A022D;
+		font: 35px Alexandra Script;
+		color: #8A022D;
+		line-height: 20px;
+	}
+
+	.form_title2 {
+		-webkit-text-stroke: 0px #8A022D;
+		padding-top: 5px;
+		font: 15px Bauhaus;
+	}
+
+	.checkboxs {
+		font: 15px Bauhaus;
+		color: #8A022D;
+	}
+
+	.send {
+		width: 125px;
+		height: 50px;
+	}
+
+	.send2 {
+		width: 125px;
+		height: 50px;
+	}}
