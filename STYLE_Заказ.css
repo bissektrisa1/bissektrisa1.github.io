@@ -1,0 +1,311 @@
+
+.first_title {
+	margin-left:10%;
+	width: 80%;
+	text-align: center;
+	padding-top: 100px;
+	-webkit-text-stroke: 2px #8A022D;
+	font: 80px Alexandra Script;
+	color: #8A022D;
+	line-height: 30px;
+}
+footer {
+	margin-top: 20%;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 0%;
+}
+
+.foot {
+	max-width: 100%;
+	position: absolute;
+	z-index: 999;
+}
+
+.meny2_1 {
+	margin-left: 20px;
+	margin-top: 10px;
+	position: fixed;
+	z-index: 1000;
+	height: 20px;
+	width: 50%;
+}
+
+.text_meny2_1 {
+	font: 25px Bauhaus;
+	color: #FFF0EB;
+	padding: 20px;
+	padding-left: 15%;
+	padding-right: 25%;
+}
+
+.M {
+	margin-top: -10px;
+	display: none;
+}
+
+.knopka {
+	display: none;
+	-webkit-transition-duration: 1s;
+	margin-left: 100%;
+	border: 1px solid #56022D;
+	background: #8A022D;
+	position: absolute;
+	z-index: 700;
+	height: 410px;
+	width: 50%;
+}
+
+@media screen and (max-width: 1300px) {
+	.meny1 {
+		display: none;
+	}
+
+	.meny2 {
+		display: none;
+	}
+
+	.dis1 {
+		display: none;
+	}
+
+	.M {
+		display: initial;
+	}
+
+	.myka {
+		margin-left: 81%;
+		width: 70px
+	}
+
+	.text_meny2 {
+		display: none;
+	}
+
+	.knopka {
+		display: initial;
+	}
+
+	.first_title {
+		margin-left: 10%;
+		width: 85%;
+		text-align: center;
+		padding-top: 100px;
+		-webkit-text-stroke: 2px #8A022D;
+		font: 60px Alexandra Script;
+		color: #8A022D;
+		line-height: 30px;
+	}
+	
+}
+.one_punct {
+	margin-left:7%;
+	margin-top: 100px;
+	font: 30px Bauhaus;
+	color: #8A022D;
+}
+.two_punct {
+	margin-left:7%;
+	margin-top: 50px;
+	font: 30px Bauhaus;
+	color: #8A022D;
+}.three_punct {
+	margin-left:7%;
+	margin-top: 50px;
+	font: 30px Bauhaus;
+	color: #8A022D;
+}
+.cklicc {
+	text-decoration: none;
+	font: 35px Bauhaus;
+	color: #B23C6B;
+}
+.num {
+	font: 60px Bauhaus;
+	color: #8A022D;
+}
+
+#first {
+	margin-top: 50px;
+	padding: 20px;
+	width: 70%;
+	min-width: 300px;
+	height: auto;
+}
+fieldset {
+	border: 10px solid #8A022D;
+	border-radius: 30px;
+}
+.finput_title {
+	margin-top:0px;
+	-webkit-text-stroke: 2px #8A022D;
+	font: 60px Alexandra Script;
+}
+.finput {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.food, .drinks {
+text-align:center;	
+	width: 40%;
+	height: auto;
+}
+.food {
+margin-right:10px;}
+.drinks {
+margin-left:10px;}
+.items {
+	display:inline-block;
+	margin-top: 15px;
+	width: 100%;
+	height: auto;
+	font: 20px Bauhaus;
+}
+.names {
+	float:left;
+}
+.obiem {
+	float: right;
+}
+
+
+.inputs1, .inputs2 {
+	font: 15px Bauhaus;
+	color: #B97389;
+	border-radius: 5px;
+	border: 2px solid #8A022D;
+	background: #FFF0EB;
+	width: 40%;
+}
+.inputs1 {
+	float: left;
+	padding-left: 5%;
+}
+.inputs2 {
+	float: right;
+	padding-right: 5%;
+}
+
+
+.vvod {
+	margin-top: 10px;
+	width: 100%;
+	display: inline-block;
+}
+.buttoms {
+align-items:baseline;
+}
+.but {
+	margin-top:10px;
+	float:left;
+
+}
+.but2 {
+	margin-top: 10px;
+	float: right;
+}
+.but3 {
+	margin-top: 10px;
+	float: right;
+}
+.contacts_title {margin-left:7%;
+	display:flex;
+	justify-content:center;
+margin-top:50px;
+width:80%;
+height:auto;
+}
+.contacts_title1, .contacts_title2 {
+	font: 60px Alexandra Script;
+	-webkit-text-stroke: 2px #8A022D;
+}
+.contacts_title1 {
+	margin-right:5%;
+}.contacts_title2 {
+	margin-left:5%;
+}
+.contacts_text {
+	margin-top:20px;
+	display:flex;
+	justify-content:center;
+}
+.contacts_text1, .contacts_text2 {
+	font: 15px Bauhaus;
+	color: #B97389;
+	border-radius: 5px;
+	border: 2px solid #8A022D;
+	background: #FFF0EB;
+	width: 25%;
+}
+.contacts_text1 {
+	margin-right: 5%;
+}
+.contacts_text2 {
+	margin-left: 5%;
+}
+.send {
+	margin-top:100px;
+	margin-left:0%;
+}
+	.send:hover {
+		transform: scale(1.05,1.05);
+	}
+@media screen and (max-width: 900px) {
+	form {
+		margin-top: 50px;
+		padding: 20px;
+		width: 90%;
+		min-width: 300px;
+		height: auto;
+	}
+	.contacts_title1 {
+		margin-right: 5%;
+	}
+
+	.contacts_title2 {
+		margin-left: 5%;
+	}
+	.contacts_title1, .contacts_title2 {
+		font: 40px Alexandra Script;
+		-webkit-text-stroke: 1.5px #8A022D;
+	}
+	.food, .drinks {
+		text-align: center;
+		width: 50%;
+		height: auto;
+	}
+}
+.dark {
+	position: fixed;
+	z-index: 1500;
+	opacity: 0.8;
+	background: black;
+	width: 100%;
+	height: 3000px;
+	display: none;
+}
+
+.forma {
+	-webkit-transition-duration: 0.5s;
+	border-radius: 30px;
+	margin-left: 25%;
+	position: fixed;
+	z-index: 1501;
+	width: 50%;
+	min-height: 450px;
+	border: 10px solid #8A022D;
+	background: #FFF0EB;
+	margin-top: -100%;
+}
+
+.form_title {
+	padding-bottom: 15px;
+	width: 90%;
+	text-align: center;
+	padding-top: 15px;
+	-webkit-text-stroke: 1px #8A022D;
+	font: 70px Alexandra Script;
+	color: #8A022D;
+	line-height: 20px;
+}

@@ -1,0 +1,351 @@
+.swiper-container {
+	border-bottom: 10px solid #8A022D;
+	border-top: 10px solid #8A022D;
+
+	margin-top: -10%;
+	width: 100%;
+	height: 450px;
+	background: #000;
+}
+
+.swiper-slide {
+	font-size: 18px;
+	color: #fff;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 40px 60px;
+}
+
+.parallax-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 130%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.swiper-button-next {
+}
+.swiper-slide .title {
+	-webkit-text-stroke: 5px #8A022D;
+	text-align: center;
+	margin-top: 5%;
+	color: #FFF0EB;
+	font-size: 100px;
+	font-family: Bauhaus;
+	font-weight: 300;
+}
+/*====================================================*/
+
+
+/*ьюакнм ьюакнм ьюакнм ьюакнм ьюакнм ьюакнм ьюакнм ьюакнм ьюакнм ьюакнм ьюакнм ьюакнм*/
+.first {
+	background-image: url(img/About_us/mykafon.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-position: center center;
+	background-attachment: fixed;
+	margin-top: 10px;
+	width: 100%;
+	height: 500px;
+	border-bottom: 10px solid #8A022D;
+}
+.first_title {
+	-webkit-text-stroke: 5px #8A022D;
+
+	color: #FFF0EB;
+	float: right;
+	height: auto;
+	margin-top: 5%;
+	margin-right: 5%;
+	font: 80px Bauhaus;
+}
+.first_text {
+	float: left;
+	padding-top: 5%;
+	padding-left: 5%;
+	-webkit-text-stroke:3px #8A022D;
+	color: #FFF0EB;
+	font: 40px Bauhaus;
+}
+.threepla {
+	
+	display: inline-block;
+	width: 100%;
+	height:auto;
+	margin-top: 150px;
+}
+.logo {
+	margin-left:120px;
+	max-width: 100%;
+	height: auto;
+}
+.b {
+		flex: 1;
+}
+.c {
+	flex: 3;
+}
+.threepla_title {	
+	max-width: 100%;
+	height: auto;
+}
+.threepla_meny {
+	display: inline-block;
+	float: right;
+	-webkit-text-stroke: 2px #8A022D;
+	font: 85px Alexandra Script;
+	color: #8A022D;
+	padding: 0;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-right: 10%;
+}
+.listris{
+	padding-right: 30px;
+	padding-left: 30px;
+}.listris :first-child{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+	.listris :last-child {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.listris:hover {
+		transform: scale(1.05,1.05);
+	}
+.three_texts {
+	display:inline-block;
+	max-width: 100%;
+	min-height: 500px;
+}
+
+#blocks {
+	margin-top:20px;
+	-webkit-transition-duration:1s;
+	-webkit-text-stroke: 0px;
+	padding: 5px;
+	font: 25px Bauhaus;
+	color: #8A022D;
+	border: 10px solid #8A022D;
+	outline: none;
+	position: absolute;
+	height: auto;
+	max-width: 800px;
+}
+#f1 {
+	text-decoration: underline;
+}
+.one {
+	opacity:1;
+margin-left:20%;
+z-index:99;
+}
+.two {
+	opacity: 0;
+	margin-left: 20%;
+	z-index: 98;
+}
+.three {
+	opacity: 0;
+	margin-left: 20%;
+	z-index: 97;
+}
+.your {
+	display: inline-block;
+	margin-top: 200px;
+	border-top: 10px solid #8A022D;
+	border-bottom: 10px solid #8A022D;
+	width: 100%;
+	height: auto;
+}
+.your_img {
+	display: inline-block;
+	float:right;
+	margin:1%;
+	margin-right: 12%;
+	max-width: 100%;
+	height: auto;
+}
+.your_text {
+	float:left;
+	font: 25px Bauhaus;
+	color: #8A022D;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-right: 4%;
+	max-width: 100%;
+	height:auto;
+}
+.your_send {
+	margin-bottom:1%;
+float:right;
+margin-right:5%;
+}
+.your_send:hover {
+	transform: scale(1.05,1.05);
+}
+.meny2_1 {
+	margin-left: 20px;
+	margin-top: 10px;
+	position: fixed;
+	z-index: 1000;
+	height: 20px;
+	width: 50%;
+	border: 0px red solid;
+}
+.text_meny2_1 {
+	font: 25px Bauhaus;
+	color: #FFF0EB;
+	padding: 20px;
+	padding-left: 15%;
+	padding-right: 25%;
+}
+.M {
+	margin-top: -10px;
+	display: none;
+}
+.knopka {
+	display: none;
+	-webkit-transition-duration: 1s;
+	margin-left: 100%;
+	border: 1px solid #56022D;
+	background: #8A022D;
+	position: absolute;
+	z-index: 700;
+	height: 410px;
+	width: 50%;
+}
+.b1 {
+	display: flex;
+	align-items: center;
+}
+.dark {
+	position: fixed;
+	z-index: 1500;
+	opacity: 0.8;
+	background: black;
+	width: 100%;
+	height: 3000px;
+	display: none;
+}
+
+.forma {
+	-webkit-transition-duration: 0.5s;
+	border-radius: 30px;
+	margin-left: 25%;
+	position: fixed;
+	z-index: 1501;
+	width: 50%;
+	min-height: 450px;
+	border: 10px solid #8A022D;
+	background: #FFF0EB;
+	margin-top: -100%;
+}
+
+@media screen and (max-width: 1300px) {
+	.meny1 {
+		display: none;
+	}
+
+	.meny2 {
+		display: none;
+	}
+
+	.dis1 {
+		display: none;
+	}
+
+	.M {
+		display: initial;
+	}
+
+	.myka {
+		margin-left: 81%;
+		width: 70px
+	}
+
+	.text_meny2 {
+		display: none;
+	}
+
+	.knopka {
+		display: initial;
+	}
+
+	.logo {
+		margin-left: 0px;
+		max-width: 100%;
+		height: auto;
+	}
+}
+footer {
+	margin-top: 20%;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 0%;
+}
+.form_title {
+	padding-bottom: 0px;
+	width: 90%;
+	text-align: center;
+	padding-top: 15px;
+	-webkit-text-stroke: 1px #8A022D;
+	font: 70px Alexandra Script;
+	color: #8A022D;
+	line-height: 20px;
+}
+.form_text {
+	color: #8A022D ;
+	padding-top: 5px;
+	font: 20px Bauhaus;
+}
+.write {
+	border-radius: 5px;
+	border: 2px solid #8A022D;
+	width: 80%;
+	height: 200px;
+}
+.foot {
+	max-width: 100%;
+	position: absolute;
+	z-index: 999;
+}
+.send:hover {
+	transform: scale(1.05,1.05);
+}
+	@media screen and (max-width: 1000px) {
+
+		.form_title {
+			width: 90%;
+			text-align: center;
+			padding-top: 5px;
+			-webkit-text-stroke: 1px #8A022D;
+			font: 35px Alexandra Script;
+			color: #8A022D;
+			line-height: 20px;
+		}
+
+		.form_text {
+			-webkit-text-stroke: 0px #8A022D;
+			padding-top: 5px;
+			font: 15px Bauhaus;
+		}
+
+		.checkboxs {
+			font: 15px Bauhaus;
+			color: #8A022D;
+		}
+
+		.send {
+			width: 125px;
+			height: 50px;
+		}
+
+		.send2 {
+			width: 125px;
+			height: 50px;
+		}
+	}

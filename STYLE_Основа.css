@@ -1,0 +1,139 @@
+.first_block {
+	margin: 0;
+	z-index: 1000;
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	background-color: #8A022D;
+	border: 1px solid #56022D;
+}
+
+a {
+	color: #D3D3D3;
+	text-decoration: underline #D3D3D3;
+}
+
+body {
+	height:auto;
+	margin: 0;
+	background-color: #FFF0EB;
+}
+
+.myka {
+	color: #D3D3D3;
+	padding-top: 10px;
+	background-color: #56022D;
+	height: 30px;
+	width: 20%;
+	margin-left: 75%;
+}
+
+.meny2 {
+	margin-left: 20px;
+	margin-top: 10px;
+	position: absolute;
+	z-index: 1000;
+	height: 20px;
+	width: 70%;
+	border: 0px red solid;
+}
+
+.text_meny2 {
+	-webkit-text-stroke: 1px #8A022D;
+	font: 20px Bauhaus;
+	color: #FFF0EB;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+ul li {
+	list-style: none; /*убираем маркеры списка*/
+	float: left;
+}
+.dis3 {
+	color: #CD567B;
+	font: 25px Bauhaus;
+	text-decoration: underline;
+	margin-top: 7%;
+	margin-left: 83%;
+	position: absolute;
+	z-index: 1000;
+}
+	.dis3:hover {
+		color:#F3C9D6;
+	}
+.ikonka {
+	margin-left: 40px;
+	margin-top: 4%;
+	position: absolute;
+	z-index: 1000;
+}
+
+	.ikonka:hover {
+		transform: scale(1.05,1.05);
+	}
+
+#twitt {
+	margin-left: 120px;
+}
+
+#inst {
+	margin-left: 200px;
+}
+.ok:hover {
+	transform: scale(1.05,1.05);
+}
+.ok {
+margin-top:20px;
+margin-bottom:20px;
+}
+.ansver {
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	font: 25px Bauhaus;
+	color: #8A022D;
+	line-height: 20px;
+	-webkit-transition-duration: 0.5s;
+	border-radius: 30px;
+	position: fixed;
+	z-index: 1501;
+	width: 30%;
+	height: auto;
+	border: 10px solid #8A022D;
+	background: #FFF0EB;
+	margin-left: -100%;
+	margin-top: 20%;
+}
+
+.ansver_title {
+	padding-bottom: 15px;
+	width: 90%;
+	text-align: center;
+	padding-top: 15px;
+	-webkit-text-stroke: 1px #8A022D;
+	font: 80px Alexandra Script;
+	color: #8A022D;
+	line-height: 20px;
+}
+@media screen and (max-width: 1000px) {
+
+	.ikonka {
+		margin-top: 2%;
+	}
+	.dis3 {
+		
+		margin-left: 80%;
+		
+	}
+	}
+@media screen and (max-width: 750px) {
+
+	.ikonka {width:7%;height:auto;
+		margin-top: 2%;
+	}
+	.dis3 {
+		margin-top: 5%;
+		margin-left: 70%;
+	}
+	}

@@ -1,0 +1,136 @@
+﻿<html>
+<head>
+	<link rel="icon" href="img/ik.png" type="image/x-icon">
+
+	<title>Заказ</title>
+	<link rel="stylesheet" href="STYLE_Заказ.css">
+	<link rel="stylesheet" href="STYLE_Основа.css">
+	<link rel="stylesheet" href="animate.css">
+	<script src="Wow.min.js"></script>
+	<script src="jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<div class="ansver">
+		<center>
+			<div class="ansver_title">Спасибо!</div>
+			<div class="ansver_text">Ожидайте звонка оператора для подтверждения заказа</div>
+			<img class="ok" src="img/ok.png">
+		</center>
+	</div>
+	<div class="dark"></div><div class="forma">
+		<center>
+
+		</center>
+	</div>
+	<div class="first_block">
+		<ul class="meny2">
+			<a href="О нас.html"><li class="text_meny2">О нас</li></a>
+			<a href="Наша еда.html">
+				<li class="text_meny2">Наша еда</li>
+			</a>
+			<a href="Напитки.html">
+				<li class="text_meny2">Напитки</li>
+			</a>
+			<a href="Заказ.html">
+				<li class="text_meny2">Заказ</li>
+			</a>
+			<a href="Контакты.html"><li class="text_meny2">Контакты</li></a>
+		</ul>
+		<div class="myka" align="center">
+			<a href="САЙТ.html"><span class="dis1">кафе-кондитерская «MYKA»</span></a>
+			<span class="dis2"><img class="M" src="img/M.png" width="40" height="40"></span>
+		</div>
+		<div class="knopka">
+			<ul class="meny2_1">
+				<a href="Сайт.html"><li class="text_meny2_1">Главная</li></a>
+				<a href="О нас.html"><li class="text_meny2_1">О нас</li></a>
+				<a href="Наша еда.html"><li class="text_meny2_1">Наша еда</li></a>
+				<a href="Напитки.html"><li class="text_meny2_1">Напитки</li></a>
+				<a href="Заказ.html"><li class="text_meny2_1">Заказ</li></a>
+				<a href="Контакты.html"><li class="text_meny2_1">Контакты</li></a>
+			</ul>
+		</div>
+	</div>
+	<div class="first_title">Для оформления заказа, пожалуйста, следуйте перечисленным ниже пунктам</div>
+	<div class="one_punct">
+		<span class="num">1. </span>Для начала определитесь с заказом. Для того, чтобы это сделать изучите список нашей продукции. Ознакомиться с перечнем нашей выпечки
+		вы можете <a class="cklicc" id="f" href="Наша еда.html#yak1" target="_blank">ЗДЕСЬ</a>, а со списком напитков <a class="cklicc" href="Напитки.html#yak2" target="_blank">ТУТ</a>. Затем вернмтесь сюда и продолжит отформление.
+	</div>		<form action="sendmesaage.php" method="post" name="frm_feedback">
+
+		<div class="two_punct">
+			<span class="num">2. </span>Далее заполните представленную ниже форму, записав в нее название выбранной продукции и количество порций.
+			<fieldset id="first">
+				<legend class="leg">Оформление заказа</legend>
+				<div class="finput">
+					<div class="food">
+						<div class="finput_title">Еда</div>
+						<div class="items">
+							<div class="names">Название</div>
+							<div class="obiem">Количество</div>
+
+							<div id="clone" class="vvod">
+								<input class="inputs1" type='text' value=". . ." />
+								<input class="inputs2" type='text' />
+							</div>
+
+						</div>
+						<div class="buttoms">
+							<div class="but" id="Add_elem_1"><img src="img/Zakaz/plus.png"></div>
+							<div class="but2" id="Add_elem_2"><img src="img/Zakaz/minus.png"></div>
+						</div>
+
+					</div>
+					<div class="drinks">
+						<div class="finput_title">Напитки</div>
+						<div class="items">
+							<div class="names">Название</div>
+							<div class="obiem">Объем</div>
+
+							<div id="clone2" class="vvod">
+								<input class="inputs1" type='text' value=". . ." />
+								<select class="inputs2" type='text'>
+									<option>250ml</option>
+									<option>500ml</option>
+									<option>750ml</option>
+								</select>
+							</div>
+
+						</div>
+						<div class="buttoms">
+							<div class="but" id="Add_elem_3"><img src="img/Zakaz/plus.png"></div>
+							<div class="but3" id="Add_elem_4"><img src="img/Zakaz/minus.png"></div>
+						</div>
+
+					</div>
+				</div>
+			</fieldset>
+		</div>
+		<div class="three_punct">
+			<span class="num">3.</span> Теперь осталось указать свои контактные данные и все готово! Нажимайте на кнопку "заказать" и ждите,
+			пока ваш заказ будет доставлен. Наш курьер позвонит вам по прибытию.
+			<div class="contacts_title">
+				<div class="contacts_title1">Номер телефона</div>
+				<div class="contacts_title2">Адрес доставки</div>
+			</div>
+			<div class="contacts_text">
+				<input class="contacts_text1" type='text' value=" + 375" />
+				<input class="contacts_text2" type='text' value=" . . ." />
+			</div><img class="send" src="img/Zakaz/Заказ1.png">
+		</div>
+	</form>
+
+
+	<footer>
+		<img class="foot" src="img/Main/footer_line.png">
+		<a href="Контакты.html"><span class="dis3">Где нас найти?</span></a>
+		<a href="https://www.facebook.com/">
+			<img class="ikonka" src="img/Facebook.png">
+		</a>			<a href="https://twitter.com/">
+			<img class="ikonka" id="twitt" src="img/Tweeter.png">
+		</a>
+		<a href="https://www.instagram.com/"><img class="ikonka" id="inst" src="img/Inst.png"></a>
+	</footer>
+	<script src="skript.js"></script>
+
+</body>
+</html>
