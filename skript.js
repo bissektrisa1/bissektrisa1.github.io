@@ -83,11 +83,11 @@ $("#Zak").click(function () {
 	$(".forma").css('margin-top', '2%');
 
 }); $(".send").click(function () {
-	//if ($(".contacts_text1").val() == " + 375" || $(".contacts_text2").val() == " . . ." || $(".inputs1").val() == ". . ." || $(".inputs2").val() == "" || $(".place").val() == " Адрс доставки" || $(".phone").val() == " Телефон") {
+	//if ($(".contacts_text1").val() == " + 375" || $(".contacts_text2").val() == " . . ." || $(".inputs1").val() == ". . ." || $(".inputs2").val() == "" || $(".place").val() == " РђРґСЂСЃ РґРѕСЃС‚Р°РІРєРё" || $(".phone").val() == " РўРµР»РµС„РѕРЅ") {
 	//
 	$(".dark").css('display', 'initial');
 
-		$(".forma").css('margin-top', '-100%');
+		$(".forma").css('margin-top', '-1000px');
 		//$(".ansver").css('margin-left', '35%');
 		//alert("sdsd");
 	//}
@@ -112,7 +112,7 @@ $("#Zak").click(function () {
 
 });$(".dark").click(function () {
 
-		$(".forma").css('margin-top', '-100%');
+		$(".forma").css('margin-top', '-1000px');
 		$(".dark").css('display', 'none');
 
 });
